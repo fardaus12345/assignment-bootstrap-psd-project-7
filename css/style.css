@@ -1,0 +1,348 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+/* header section css */
+
+.header-section {
+  width: 100%;
+  background: url("../img/Home.png") center top no-repeat;
+  background-size: cover;
+}
+
+.menu .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0px 0px 0px 20px;
+  font-weight: 600;
+}
+
+.menu .navbar-nav .nav-item .nav-link:hover {
+  background: url("../img/Prostokat.png") center bottom no-repeat;
+  background-size: auto;
+}
+
+.menu .navbar-nav .nav-item .nav-link:focus {
+  background: url("../img/Prostokat.png") center bottom no-repeat;
+  background-size: auto;
+}
+
+.menu .navbar-nav .nav-link.active {
+  color: #008ed6;
+  background: url("../img/Prostokat.png") center bottom no-repeat;
+  background-size: auto;
+}
+
+.banner {
+  width: 100%;
+  padding: 90px 0px;
+}
+.banner .inner-banner h5 {
+  color: #008ed6;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.banner .inner-banner h1 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  margin: 0px 0px 15px 0px;
+}
+
+.banner .inner-banner p {
+  color: #646466;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  margin: 0px 0px 50px 0px;
+}
+.inner-btn {
+  width: 100%;
+}
+
+.inner-btn .btn-primary {
+  padding: 7px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #008ed6;
+  border-radius: 2px;
+  margin: 0px 14px 0px 0px;
+  transition: 1s;
+}
+
+.inner-btn .btn-primary:hover {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+}
+.inner-btn .btn-primary:focus {
+  color: #008ed6;
+  border: 1px solid #008ed6;
+  background: transparent;
+}
+
+.inner-btn .btn-light {
+  padding: 7px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: transparent;
+  transition: 1s;
+}
+
+.inner-btn .btn-light:hover {
+  color: #fff;
+  border: 1px solid #008ed6;
+  background: #008ed6;
+}
+.inner-btn .btn-light:focus {
+  color: #fff;
+  border: 1px solid #008ed6;
+  background: #008ed6;
+}
+
+/* feature css */
+
+.feature-section {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.tittle {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 40px;
+}
+.feature-section .tittle h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+.feature-section .tittle h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.inner-feature {
+  width: 100%;
+  padding: 40px 30px 0px 30px;
+  text-align: center;
+}
+
+.inner-feature .inner-box {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border: 1.5px solid #eee;
+  margin: 0px auto 20px;
+  border-radius: 100%;
+}
+
+.inner-feature h4 {
+  font-size: 21px;
+  line-height: 31px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.inner-feature p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #646466;
+}
+
+/* about section css */
+
+.about-section {
+  width: 100%;
+  padding: 80px 0px;
+  border-top: 1.5px solid #eee;
+}
+
+.about-section .inner-about-content {
+  padding: 40px 0px 0px 0px;
+}
+
+.about-section .tittle-about {
+  width: 100%;
+  text-align: start;
+  padding: 0px 0px 10px;
+}
+.about-section .tittle-about h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+.about-section .tittle-about h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.about-section .inner-about-content p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #646466;
+  padding: 0px 128px 0px 0px;
+}
+
+.about-section .inner-about-content ul {
+  width: 100%;
+  display: block;
+  padding: 25px 0px 0px;
+  margin: 0px;
+}
+
+.about-section .inner-about-content ul li {
+  list-style: none;
+  display: block;
+  margin: 0px 0px 10px 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.about-section .inner-about-content ul li img {
+  width: 13px;
+  height: 15px;
+  margin: 0px 10px 0px 0px;
+}
+
+/* customize-section css */
+
+.customize-section {
+  width: 100%;
+  padding: 80px 0px;
+  background: #f2f2f2;
+}
+
+.customize-section .inner-customize-content {
+  padding: 54px 0px 0px 0px;
+}
+
+.customize-section .tittle-customize {
+  width: 100%;
+  text-align: start;
+  padding: 0px 0px 10px;
+}
+.customize-section .tittle-customize h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+.customize-section .tittle-customize h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+}
+
+.customize-section .inner-customize-content p {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #646466;
+  padding: 0px 128px 0px 0px;
+}
+/* testimonial section css */
+
+.testimonial-section {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../img/testimonial.png") center top no-repeat;
+  background-size: cover;
+}
+
+.testimonial-section .tittle-testimonial {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 10px;
+}
+.testimonial-section .tittle-testimonial h5 {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #008ed6;
+}
+.testimonial-section .tittle-testimonial h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.testimonial-section .owl-theme {
+  width: 100%;
+  padding: 40px 0px 20px;
+}
+.testimonial-section .owl-theme .item h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 20px 0px;
+}
+
+.testimonial-section .owl-theme .item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.testimonial-section .owl-theme .item p {
+  font-size: 14px;
+  color: #f4f4f4;
+  margin: 9px 0px 5px;
+}
+.testimonial-section .owl-theme .item h6 {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.testimonial-section .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 70px;
+}
